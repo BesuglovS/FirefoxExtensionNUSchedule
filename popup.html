@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Диспетчерская учебного отдела СГОАН</title>
+
+    <link rel="stylesheet" type="text/css" href="popup.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="jquery-ui.css" media="screen" />
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="popup.js"></script>
+
+</head>
+<body>
+    <table style="width: 100%" id="pageTable">
+        <tr>
+            <td>
+                <div>
+                    <img src="" id="pageLogo" style="vertical-align:middle">
+                    <span style="font-size: 18px">Расписание СГОАН</span>
+                </div>
+            </td>
+            <td style="text-align: right">
+                <select id="studentGroup">
+                </select>
+
+                <!--<input type="date" id="scheduleDate" value="">-->
+                <input type="text" id="datepicker" size="15">
+            </td>
+        </tr>
+    </table>
+    <div id="result"></div>
+</body>
+</html>
